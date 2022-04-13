@@ -12,14 +12,14 @@ function App() {
 
   const onWorkClickHandler = () => {
     isAboutPage = false;
-    isContactPage = false;
-    isWorkPage = true;
+    isContactPage = true;
+    isWorkPage = false;
   }
 
   return (
     <div className="bg-main-black w-screen h-screen p-3">
       <Nav onWorkClick={onWorkClickHandler} />
-      {isAboutPage && !isWorkPage && !isContactPage && <About />}
+      {isAboutPage && <About />}
       {isWorkPage && <Work />}
       {isContactPage && <Contact />}
     </div>

@@ -16,6 +16,14 @@ const About = () => {
                     <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Skills</h2>
 
                     <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Technologies Used</h2>
+                    <ul>
+                        <li><img src="" /></li>
+                        <li><img src="" /></li>
+                        <li><img src="" /></li>
+                        <li><img src="" /></li>
+                        <li><img src="" /></li>
+                        <li><img src="" /></li>
+                    </ul>
 
                 </div>
 

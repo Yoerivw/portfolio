@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Work = () => {
+const Work = (props) => {
+
+
     return (
-        <div>Work Page</div>
+        <div className="container mx-auto  mt-20"></div>
     )
 }
 
