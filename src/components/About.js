@@ -1,36 +1,36 @@
-import React from 'react'
+import React from "react";
+
+import portrait from "../assets/img/yoeri.jpg";
+import github from "../assets/img/github.svg";
+import linkedin from "../assets/img/linkedin.svg";
 
 const About = () => {
-    return (
-        <div className="container mx-auto  mt-20">
-            <div className=" grid grid-cols-2 gap-5">
-                <div>
-                    <h2 className="text-5xl text- font-bold text-main-purple mb-5" >About Myself</h2>
-                    <p className="text-slate-50 text-md pr-20">
-                        I am an aspiring back-end web developer, currently going through the FreeCodeCamp curriculum to get the basics right of HTML, CSS and Javascript.
-                        <br /><br />
-                        My main language I'm learning for the back-end at the moment is PHP and MysQL for database management. And my main goal is to land my first web development job in the next 6 months in a PHP environment. Recently I started a Wordpress website as well the learn the ins-and-outs of the platform which is predominantly written in PHP.
-                    </p>
-                </div>
-                <div>
-                    <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Skills</h2>
+	return (
+		<div className='container mx-auto  mt-20'>
+			<figure class='md:flex bg-main-black rounded-xl p-8 md:p-0 space-x-10'>
+				<img
+					src={portrait}
+					alt='personal photo'
+					class='w-48 h-48 md:w-80 md:h-auto rounded-full mx-auto'
+				/>
+				<div class='pt-6 md:p-8 text-center md:text-left space-y-10'>
+					<h1 className='text-3xl text-main-purple bold'>Hi, I'm Yoeri</h1>
+					<blockquote>
+						<p class='text-lg font-medium text-slate-50'>
+							With interests in both business and programming I love to help
+							build solutions and help users have a great experience.
+						</p>
+					</blockquote>
+					<figcaption class='font-medium'>
+						<div class='text-main-purple'>Yoeri Van Wassenhove</div>
+						<div class='text-slate-700 dark:text-slate-500'>
+							Front-end Freelance Web Developer
+						</div>
+					</figcaption>
+				</div>
+			</figure>
+		</div>
+	);
+};
 
-                    <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Technologies Used</h2>
-                    <ul>
-                        <li><img src="" /></li>
-                        <li><img src="" /></li>
-                        <li><img src="" /></li>
-                        <li><img src="" /></li>
-                        <li><img src="" /></li>
-                        <li><img src="" /></li>
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-    )
-}
-
-export default About
+export default About;

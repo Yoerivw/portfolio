@@ -17,11 +17,11 @@ function App() {
   }
 
   return (
-    <div className="bg-main-black w-screen h-screen p-3">
+    <div className="bg-main-black ">
       <Nav onWorkClick={onWorkClickHandler} />
-      {isAboutPage && <About />}
-      {isWorkPage && <Work />}
-      {isContactPage && <Contact />}
+      <About />
+      <Work />
+      <Contact />
     </div>
   );
 }
