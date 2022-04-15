@@ -11,6 +11,9 @@ module.exports = {
         'main-background': '#2B3646',
         'form-black': '#414141',
         'form-text-black': '#ABABAB'
+      },
+      fontFamily: {
+        'display': ['Source Code Pro', 'monospace']
       }
     },
   },

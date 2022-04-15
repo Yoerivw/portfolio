@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className='bg-main-background'>
+    <div className='bg-main-background font-display'>
       <Nav onWorkClick={onWorkClickHandler} />
       <About />
       <Work />
