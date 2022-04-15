@@ -14,18 +14,17 @@ const About = () => {
 					class='w-48 h-48 md:w-80 md:h-auto rounded-full mx-auto'
 				/>
 				<div class='pt-6 md:p-8 text-center md:text-left space-y-10'>
-					<h1 className='text-3xl text-main-purple bold'>Hi, I'm Yoeri</h1>
+					<h1 className='text-3xl'><span className="text-main-green">hiThere</span><span>(name)</span><span>&#123;</span><br />
+						let name = Yoeri;<br />
+						return name;<br />
+						<span>&#125;</span></h1>
 					<blockquote>
-						<p class='text-lg font-medium text-slate-50'>
-							With interests in both business and programming I love to help
-							build solutions and help users have a great experience.
-						</p>
+						<p class='text-lg font-medium text-slate-50'>I love everything tech and business. I use code to meet business objectives. And stuff like that.</p>
 					</blockquote>
 					<figcaption class='font-medium'>
-						<div class='text-main-purple'>Yoeri Van Wassenhove</div>
-						<div class='text-slate-700 dark:text-slate-500'>
-							Front-end Freelance Web Developer
-						</div>
+						<button>Check out CV</button>
+						<img src={github} alt="Github Icon" />
+						<img src={linkedin} alt="Linkedin Icon" />
 					</figcaption>
 				</div>
 			</figure>
