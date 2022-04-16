@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className='bg-main-background font-display'>
+    <div className='bg-main-background font-display flex justify-center'>
       <Nav onWorkClick={onWorkClickHandler} />
       <About />
       {/* <Work />

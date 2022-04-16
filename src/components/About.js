@@ -11,7 +11,8 @@ const About = () => {
 
 
 	return (
-		<section className='container mx-auto  mt-20'>
+		<Section>
+
 			<figure class='md:flex bg-main-black rounded-xl p-8 md:p-0 space-x-10'>
 				<img
 					src={portrait}
@@ -42,7 +43,8 @@ const About = () => {
 			<div className="flex justify-center mt-12">
 				<img src={chevDown} alt="chevron-down" />
 			</div>
-		</section >
+
+		</Section>
 	);
 };
 
