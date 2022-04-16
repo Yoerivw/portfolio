@@ -1,21 +1,22 @@
 import React from "react";
+import Section from "../layout/Section";
 
 import portrait from "../assets/img/yoeri.jpg";
 import github from "../assets/img/github.svg";
 import linkedin from "../assets/img/linkedin.svg";
 import launch from "../assets/img/launch-icon.svg";
-
+import chevDown from '../assets/img/double-chevron-down.svg'
 const About = () => {
 
 
 
 	return (
-		<div className='container mx-auto  mt-20'>
+		<section className='container mx-auto  mt-20'>
 			<figure class='md:flex bg-main-black rounded-xl p-8 md:p-0 space-x-10'>
 				<img
 					src={portrait}
 					alt='personal photo'
-					class='w-48 h-48 md:w-100 md:h-auto rounded-full mx-auto'
+					class='md:w-100 md:h-auto rounded-full mx-auto'
 				/>
 				<div class='pt-6 md:p-8 text-center md:text-left space-y-8'>
 					<h1 className='text-3xl'><span className="text-main-green">Hi_there</span><span className='text-main-orange'>(I'm, Yoeri)</span><br />
@@ -38,7 +39,10 @@ const About = () => {
 					</figcaption>
 				</div>
 			</figure >
-		</div >
+			<div className="flex justify-center mt-12">
+				<img src={chevDown} alt="chevron-down" />
+			</div>
+		</section >
 	);
 };
 

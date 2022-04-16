@@ -20,8 +20,8 @@ function App() {
     <div className='bg-main-background font-display'>
       <Nav onWorkClick={onWorkClickHandler} />
       <About />
-      <Work />
-      <Contact />
+      {/* <Work />
+      <Contact /> */}
     </div>
   );
 }

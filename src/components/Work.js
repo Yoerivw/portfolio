@@ -9,10 +9,10 @@ import react from '../assets/img/react.png';
 import figma from '../assets/img/figma.png';
 
 const Work = (props) => {
-
+    //hlkhklhlkhj
 
     return (
-        <div className="container mx-auto  mt-20">
+        <section className="container mx-auto  mt-20">
             <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Technologies Used</h2>
             <ul className="flex flex-cols">
                 <li><img src={html} /></li>
@@ -23,7 +23,7 @@ const Work = (props) => {
                 <li><img src={figma} /></li>
             </ul>
 
-        </div>
+        </section>
     )
 }
 
