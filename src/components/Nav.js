@@ -5,7 +5,7 @@ const Nav = (props) => {
 
 
     return (
-        <nav className="z-50 pt-4 space-x-10 text-slate-50 text-2xl">
+        <nav className="pt-4 space-x-10 text-slate-50 text-2xl flex justify-center">
 
             <button onClick={props.onC}>About</button>
             <button>Projects</button>

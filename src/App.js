@@ -17,12 +17,15 @@ function App() {
   }
 
   return (
-    <div className='bg-main-background font-display flex justify-center'>
+    <div className="bg-main-background">
       <Nav onWorkClick={onWorkClickHandler} />
-      <About />
-      {/* <Work />
+      <div className=' font-display flex min-h-screen'>
+        <About />
+        {/* <Work />
       <Contact /> */}
+      </div>
     </div>
+
   );
 }
 
