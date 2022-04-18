@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import About from './components/About';
 import Work from './components/Work'
 import Contact from './components/Contact'
+import NumberSideBar from "./layout/NumberSideBar";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <div className="bg-main-background">
       <Nav onWorkClick={onWorkClickHandler} />
       <div className=' font-display flex min-h-screen'>
+        <NumberSideBar />
         <About />
         {/* <Work />
       <Contact /> */}

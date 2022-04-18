@@ -13,6 +13,7 @@ const About = () => {
 	return (
 		<Section>
 
+
 			<figure class='md:flex bg-main-black rounded-xl p-8 md:p-0 space-x-10'>
 				<img
 					src={portrait}

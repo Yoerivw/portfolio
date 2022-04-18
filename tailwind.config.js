@@ -10,7 +10,8 @@ module.exports = {
         'main-text': '#CDCDCD',
         'main-background': '#2B3646',
         'form-black': '#414141',
-        'form-text-black': '#ABABAB'
+        'form-text-black': '#ABABAB',
+        'main-sidebar': '#C4C4C4'
       },
       fontFamily: {
         'display': ['Source Code Pro', 'monospace']
