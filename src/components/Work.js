@@ -16,8 +16,11 @@ const Work = (props) => {
     return (
         <Section>
 
-            <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Technologies Used</h2>
-            <ul className="flex flex-cols">
+            <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Projects</h2>
+            <div className="grid grid-cols-3 gap-5">
+
+            </div>
+            {/*  <ul className="flex flex-cols">
                 <li><img src={html} alt='html icon' /></li>
                 <li><img src={css} alt='css icon' /></li>
                 <li><img src={js} alt='javascript icon' /></li>
@@ -26,7 +29,7 @@ const Work = (props) => {
                 <li><img src={figma} alt='figma icon' /></li>
             </ul>
 
-        </Section>
+ */}        </Section>
     )
 }
 
