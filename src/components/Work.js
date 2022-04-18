@@ -7,12 +7,13 @@ import php from '../assets/img/php.png';
 import wp from '../assets/img/wordpress.png';
 import react from '../assets/img/react.png';
 import figma from '../assets/img/figma.png';
+import Section from '../layout/Section';
 
 const Work = (props) => {
     //hlkhklhlkhj
 
     return (
-        <section className="container mx-auto  mt-20">
+        <Section>
             <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Technologies Used</h2>
             <ul className="flex flex-cols">
                 <li><img src={html} /></li>
@@ -23,7 +24,7 @@ const Work = (props) => {
                 <li><img src={figma} /></li>
             </ul>
 
-        </section>
+        </Section>
     )
 }
 

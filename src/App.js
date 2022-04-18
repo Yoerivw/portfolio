@@ -20,11 +20,11 @@ function App() {
   return (
     <div className="bg-main-background">
       <Nav onWorkClick={onWorkClickHandler} />
-      <div className=' font-display flex min-h-screen'>
+      <div className='snap-y snap-mandatory font-display h-screen'>
         <NumberSideBar />
         <About />
-        {/* <Work />
-      <Contact /> */}
+        <Work />
+        <Contact />
       </div>
     </div>
 

@@ -1,8 +1,9 @@
 import React from 'react'
+import Section from '../layout/Section'
 
 const Contact = () => {
     return (
-        <section className="container mx-auto  mt-20 flex flex-col items-center">
+        <Section>
             <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Contact Me</h2>
             <p className="text-slate-50">I'm interested in front-end development job opportunities</p>
 
@@ -26,7 +27,8 @@ const Contact = () => {
 
             </form>
 
-        </section>
+
+        </Section>
     )
 }
 

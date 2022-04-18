@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section = (props) => {
     return (
-        <section className=' bg-main-background pl-20 pr-10 m-auto'>{props.children}</section>
+        <section className='snap-start bg-main-background px-20 ml-10 my-auto h-screen w-screen flex justify-center items-center flex-wrap'>{props.children}</section>
     )
 }
 
