@@ -2,28 +2,21 @@ import Nav from "./components/Nav";
 import About from './components/About';
 import Work from './components/Work'
 import Contact from './components/Contact'
-import NumberSideBar from "./layout/NumberSideBar";
 
 
 function App() {
 
-  let isAboutPage = true;
-  let isWorkPage = false;
-  let isContactPage = false;
 
-  const onWorkClickHandler = () => {
-    isAboutPage = false;
-    isContactPage = true;
-    isWorkPage = false;
-  }
 
   return (
     <div className="bg-main-background">
-      <Nav onWorkClick={onWorkClickHandler} />
-      <div className='snap-y snap-mandatory font-display h-screen'>
-        <NumberSideBar />
+      <Nav />
+      <div className='snap-y snap-mandatory font-display h-screen overflow-scroll'>
+
         <About />
+
         <Work />
+
         <Contact />
       </div>
     </div>

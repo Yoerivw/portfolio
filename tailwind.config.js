@@ -9,8 +9,9 @@ module.exports = {
         'main-buttons': '#0A1218',
         'main-text': '#CDCDCD',
         'main-background': '#2B3646',
+        'form-button': '#0A1218',
         'form-black': '#414141',
-        'form-text-black': '#ABABAB',
+        'form-text': '#334048',
         'main-sidebar': '#C4C4C4'
       },
       fontFamily: {

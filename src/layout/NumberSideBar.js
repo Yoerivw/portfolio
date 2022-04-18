@@ -3,7 +3,7 @@ import React from 'react'
 const NumberSideBar = () => {
     return (
 
-        <div className="text-main-sidebar absolute top-0 left-5 border-r border-main-sidebar pr-3 mr-4">
+        <div className="text-main-sidebar absolute top-0 left-5 border-r border-main-sidebar pr-3">
 
             <ul className="text-2xl space-y-3 text-right">
                 <li>1</li>

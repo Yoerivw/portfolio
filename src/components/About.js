@@ -1,5 +1,6 @@
 import React from "react";
 import Section from "../layout/Section";
+import NumberSideBar from "../layout/NumberSideBar";
 
 import portrait from "../assets/img/yoeri.jpg";
 import github from "../assets/img/github.svg";
@@ -12,12 +13,13 @@ const About = () => {
 
 	return (
 		<Section>
+			<NumberSideBar />
 
 			<div>
 				<figure class='md:flex bg-main-black rounded-xl  p-8 md:p-0 space-x-10 items-center'>
 					<img
 						src={portrait}
-						alt='personal photo'
+						alt='personal'
 						class='md:w-60 md:h-60 rounded-full mx-auto'
 					/>
 					<div class='pt-6 md:p-8 text-center md:text-left space-y-10'>
@@ -33,7 +35,7 @@ const About = () => {
 
 						<figcaption class='font-medium'>
 							<div className='flex flex-column space-x-5'>
-								<button className="flex flex-column border-2 border-main-green text-main-green px-7 py-2 items-center">Check out CV <img src={launch} className='pl-3' /></button>
+								<button className="flex flex-column border-2 border-main-green text-main-green px-7 py-2 items-center">Check out CV <img src={launch} alt='launch icon' className='pl-3' /></button>
 								<img src={github} alt="Github Icon" />
 								<img src={linkedin} alt="Linkedin Icon" />
 
