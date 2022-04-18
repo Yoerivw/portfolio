@@ -14,13 +14,13 @@ const About = () => {
 		<Section>
 
 
-			<figure class='md:flex bg-main-black rounded-xl p-8 md:p-0 space-x-10'>
+			<figure class='md:flex bg-main-black rounded-xl ml-10 p-8 md:p-0 space-x-10 items-center'>
 				<img
 					src={portrait}
 					alt='personal photo'
-					class='md:w-100 md:h-auto rounded-full mx-auto'
+					class='md:w-60 md:h-60 rounded-full mx-auto'
 				/>
-				<div class='pt-6 md:p-8 text-center md:text-left space-y-8'>
+				<div class='pt-6 md:p-8 text-center md:text-left space-y-20'>
 					<h1 className='text-3xl'><span className="text-main-green">Hi_there</span><span className='text-main-orange'>(I'm, Yoeri)</span><br />
 
 					</h1>
