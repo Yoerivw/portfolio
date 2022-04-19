@@ -6,6 +6,7 @@ import fakeMap from '../assets/img/fake_map.png'
 const Contact = () => {
     return (
         <Section>
+            d
             <h2 className="text-5xl text-white mb-5" >Hit me up </h2>
             <div className="grid grid-cols-2 gap-10">
 

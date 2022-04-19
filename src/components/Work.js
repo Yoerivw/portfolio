@@ -9,6 +9,7 @@ import wp from '../assets/img/wordpress.png';
 import react from '../assets/img/react.png';
 import figma from '../assets/img/figma.png';
 import Section from '../layout/Section';
+import Card from './Card';
 
 const Work = (props) => {
 
@@ -16,9 +17,11 @@ const Work = (props) => {
     return (
         <Section>
 
-            <h2 className="text-5xl text- font-bold text-main-purple mb-5" >Projects</h2>
+            <h2 className="text-5xl text-white text-main-purple mb-5" >Projects</h2>
             <div className="grid grid-cols-3 gap-5">
-
+                <Card />
+                <Card />
+                <Card />
             </div>
             {/*  <ul className="flex flex-cols">
                 <li><img src={html} alt='html icon' /></li>

@@ -3,7 +3,7 @@ import React from 'react'
 const NumberSideBar = () => {
     return (
 
-        <div className="text-main-sidebar absolute top-0 left-5 border-r border-main-sidebar pr-3">
+        <div className="text-main-sidebar relative left-[-80px] top-[105vh] border-r border-main-sidebar pr-3">
 
             <ul className="text-2xl space-y-3 text-right">
                 <li>1</li>
@@ -28,6 +28,47 @@ const NumberSideBar = () => {
                 <li>19</li>
                 <li>20</li>
                 <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li>32</li>
+                <li>33</li>
+                <li>34</li>
+                <li>35</li>
+                <li>36</li>
+                <li>37</li>
+                <li>38</li>
+                <li>39</li>
+                <li>40</li>
+                <li>41</li>
+                <li>42</li>
+                <li>43</li>
+                <li>44</li>
+                <li>45</li>
+                <li>46</li>
+                <li>47</li>
+                <li>48</li>
+                <li>49</li>
+                <li>50</li>
+                <li>51</li>
+                <li>52</li>
+                <li>53</li>
+                <li>54</li>
+                <li>55</li>
+                <li>56</li>
+                <li>57</li>
+                <li>58</li>
+                <li>59</li>
+                <li>60</li>
+
+
             </ul>
         </div>
 
